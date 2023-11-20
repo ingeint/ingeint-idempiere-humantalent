@@ -3,7 +3,7 @@ Bundle-Category: idempiere-plugin
 Bundle-ManifestVersion: 2
 Bundle-Name: Ingeint Human Talent
 Bundle-SymbolicName: com.ingeint.human.talent
-Bundle-Version: 7.1.0.qualifier
+Bundle-Version: 10.0.0.qualifier
 Bundle-Vendor: INGEINT <https://www.ingeint.com>
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-11

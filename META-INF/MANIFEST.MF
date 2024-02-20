@@ -3,15 +3,15 @@ Bundle-Category: idempiere-plugin
 Bundle-ManifestVersion: 2
 Bundle-Name: Ingeint Human Talent
 Bundle-SymbolicName: com.ingeint.human.talent
-Bundle-Version: 7.1.0.qualifier
+Bundle-Version: 11.0.0.qualifier
 Bundle-Vendor: INGEINT <https://www.ingeint.com>
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-11
-Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
- org.adempiere.plugin.utils;bundle-version="7.1.0",
- org.adempiere.base.process;bundle-version="7.1.0",
- org.adempiere.ui.zk;bundle-version="7.1.0",
- zk;bundle-version="8.0.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: org.adempiere.base;bundle-version="11.0.0",
+ org.adempiere.plugin.utils;bundle-version="11.0.0",
+ org.adempiere.base.process;bundle-version="11.0.0",
+ org.adempiere.ui.zk;bundle-version="11.0.0",
+ zk;bundle-version="9.6.3"
 Service-Component: OSGI-INF/ve.net.dcs.component.HTModelFactory.xml, OSGI-INF/com.ingeint.component.ProcessFactory.xml, OSGI-INF/com.ingeint.component.ModelFactory.xml,
  OSGI-INF/com.ingeint.component.EventManager.xml, OSGI-INF/com.ingeint.component.CalloutFactory.xml
 Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
